@@ -1,0 +1,9 @@
+body{
+    background-image:W_back1.jpg;
+    background-size:cover;
+    background-position:center;
+}
+#Canvas{
+    border:5px grey ridge;
+    background-image:C_back.jpg;
+}
