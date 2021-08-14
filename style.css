@@ -1,9 +1,11 @@
 body{
-    background-image:W_back1.jpg;
+    background-image:url(W_back.jpg);
     background-size:cover;
     background-position:center;
 }
 #Canvas{
     border:5px grey ridge;
-    background-image:C_back.jpg;
+    width:1360px;
+    height:285px;
+    /* height:43vh; */
 }

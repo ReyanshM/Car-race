@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Race</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body onload="load()">
+    <audio id="sound" src="cheering.wav"></audio>
     <center>
         <h1>Car Race</h1>
-        <h1 id="Status">Game Status : </h1>
-        <canvas id="Canvas" height="490px" width="800px">
-
+        <h2 id="Status">Game Status : <span id="winner"></span></h1>
+        <br>
+        <br>
+        <br>
+        <canvas id="Canvas" height="490px" width="1360px">
+            <!-- height="490px" width="800px" -->
         </canvas>
     </center>
     <script src="main.js"></script>
